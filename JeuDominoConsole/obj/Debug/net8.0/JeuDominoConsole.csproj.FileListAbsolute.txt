@@ -1,0 +1,15 @@
+C:\Users\AbuzourFarhan\Documents\UAA9\uaa9\UAA9_dominos\JeuDominoConsole\bin\Debug\net8.0\JeuDominoConsole.exe
+C:\Users\AbuzourFarhan\Documents\UAA9\uaa9\UAA9_dominos\JeuDominoConsole\bin\Debug\net8.0\JeuDominoConsole.deps.json
+C:\Users\AbuzourFarhan\Documents\UAA9\uaa9\UAA9_dominos\JeuDominoConsole\bin\Debug\net8.0\JeuDominoConsole.runtimeconfig.json
+C:\Users\AbuzourFarhan\Documents\UAA9\uaa9\UAA9_dominos\JeuDominoConsole\bin\Debug\net8.0\JeuDominoConsole.dll
+C:\Users\AbuzourFarhan\Documents\UAA9\uaa9\UAA9_dominos\JeuDominoConsole\bin\Debug\net8.0\JeuDominoConsole.pdb
+C:\Users\AbuzourFarhan\Documents\UAA9\uaa9\UAA9_dominos\JeuDominoConsole\obj\Debug\net8.0\JeuDominoConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AbuzourFarhan\Documents\UAA9\uaa9\UAA9_dominos\JeuDominoConsole\obj\Debug\net8.0\JeuDominoConsole.AssemblyInfoInputs.cache
+C:\Users\AbuzourFarhan\Documents\UAA9\uaa9\UAA9_dominos\JeuDominoConsole\obj\Debug\net8.0\JeuDominoConsole.AssemblyInfo.cs
+C:\Users\AbuzourFarhan\Documents\UAA9\uaa9\UAA9_dominos\JeuDominoConsole\obj\Debug\net8.0\JeuDominoConsole.csproj.CoreCompileInputs.cache
+C:\Users\AbuzourFarhan\Documents\UAA9\uaa9\UAA9_dominos\JeuDominoConsole\obj\Debug\net8.0\JeuDominoConsole.sourcelink.json
+C:\Users\AbuzourFarhan\Documents\UAA9\uaa9\UAA9_dominos\JeuDominoConsole\obj\Debug\net8.0\JeuDominoConsole.dll
+C:\Users\AbuzourFarhan\Documents\UAA9\uaa9\UAA9_dominos\JeuDominoConsole\obj\Debug\net8.0\refint\JeuDominoConsole.dll
+C:\Users\AbuzourFarhan\Documents\UAA9\uaa9\UAA9_dominos\JeuDominoConsole\obj\Debug\net8.0\JeuDominoConsole.pdb
+C:\Users\AbuzourFarhan\Documents\UAA9\uaa9\UAA9_dominos\JeuDominoConsole\obj\Debug\net8.0\JeuDominoConsole.genruntimeconfig.cache
+C:\Users\AbuzourFarhan\Documents\UAA9\uaa9\UAA9_dominos\JeuDominoConsole\obj\Debug\net8.0\ref\JeuDominoConsole.dll
