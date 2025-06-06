@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JeuDominoConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4447625351ed1a179a07f965e61b20144c0a983d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7d3c266e1b2d67a3d15ce475ac6133c7000d8ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("JeuDominoConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JeuDominoConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

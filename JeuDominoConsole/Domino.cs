@@ -8,63 +8,78 @@ namespace JeuDominoConsole
 {
     public struct Domino
     {
-        public void GenererDominos(int[,] dominos)
+        public void GenererDominos(List<int[]> dominos)
         {
-            int k = 0;
+            dominos.Clear();
             for (int i = 0; i <= 6; i++)
             {
                 for (int j = i; j <= 6; j++)
                 {
-                    dominos[k, 0] = i;
-                    dominos[k, 1] = j;
-                    k++;
+                    dominos.Add(new int[] { i, j });
                 }
             }
         }
 
-        public void MelangerDominos(int[,] dominos)
+        public void MelangerDominos(List<int[]> dominos)
         {
             Random alea = new Random();
-            for (int i = 27; i > 0; i--)
+            for (int i = dominos.Count - 1; i > 0; i--)
             {
                 int j = alea.Next(i + 1);
-                int a = dominos[i, 0];
-                int b = dominos[i, 1];
-
-                dominos[i, 0] = dominos[j, 0];
-                dominos[i, 1] = dominos[j, 1];
-
-                dominos[j, 0] = a;
-                dominos[j, 1] = b;
+                int[] tmp = dominos[i];
+                dominos[i] = dominos[j];
+                dominos[j] = tmp;
             }
         }
 
-        public void DistribuerDominos(int[,] dominos, int[,] joueur1, int[,] joueur2, int[,] stock)
+        public void DistribuerDominos(
+            List<int[]> pioche,
+            List<int[]> main1,
+            List<int[]> main2,
+            List<int[]> stock)
         {
+            main1.Clear();
+            main2.Clear();
+            stock.Clear();
+
             for (int i = 0; i < 7; i++)
             {
-                joueur1[i, 0] = dominos[i, 0];
-                joueur1[i, 1] = dominos[i, 1];
-
-                joueur2[i, 0] = dominos[i + 7, 0];
-                joueur2[i, 1] = dominos[i + 7, 1];
+                main1.Add(pioche[i]);
+                main2.Add(pioche[i + 7]);
             }
-
-            for (int i = 0; i < 14; i++)
+            for (int i = 14; i < pioche.Count; i++)
             {
-                stock[i, 0] = dominos[i + 14, 0];
-                stock[i, 1] = dominos[i + 14, 1];
+                stock.Add(pioche[i]);
             }
         }
 
-        public void AfficherDominos(int[,] dominos)
+        public void AfficherDominos(List<int[]> liste)
         {
-            for (int i = 0; i < dominos.GetLength(0); i++)
+            for (int i = 0; i < liste.Count; i++)
             {
-                Console.Write("[" + dominos[i, 0] + "|" + dominos[i, 1] + "] ");
+                Console.Write("(" + i + ") ");
+                Console.Write("[" + liste[i][0] + "|" + liste[i][1] + "] ");
+
             }
             Console.WriteLine();
         }
 
+        
+        public void AfficherPlateau(List<int[]> plateau)
+        {
+            if (plateau.Count == 0)
+            {
+                Console.WriteLine("Plateau vide.");
+            }
+            else
+            {
+                for (int i = 0; i < plateau.Count; i++)
+                {
+                    Console.Write("[" + plateau[i][0] + "|" + plateau[i][1] + "] ");
+                }
+                Console.WriteLine();
+            }
+        }
     }
+
 }

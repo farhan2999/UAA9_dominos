@@ -8,29 +8,18 @@ namespace JeuDominoConsole
 {
     public struct Utilisateur
     {
-   
-        public bool Utilisateurs(string action )
+        
+        public bool Utilisateurs(string action)
         {
-            string messageAction = "";
-            int indiceDomino = -1;
-            int[] dominoChoisi = null;
-            bool resultat = false;
-            switch (action)
+            switch (action.ToLower())
             {
-                case "jouer":
-                    messageAction = "Action validée: Vous avez joué un domino.";
-                    resultat = true;
-                    break;
-                case "piocher":
-                    messageAction = "Action validée: Vous avez pioché un domino.";
-                    resultat = true;
-                    break;
-                case "passer":
-                    messageAction = "Action validée: Vous avez passé votre tour.";
-                    resultat = true;
-                    break;
+                case "j":
+                case "p":
+                case "s":
+                    return true;
+                default:
+                    return false;
             }
-            return resultat;
         }
     }
 }
